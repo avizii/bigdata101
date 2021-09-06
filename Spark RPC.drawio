@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-06T01:03:50.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="pKHiryV4uoR530NPG7MZ" version="15.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-09-06T02:46:30.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="-__u3-u6GzSDU7datenM" version="15.0.2" type="github" pages="3">
   <diagram id="uVko9VTxaAUNqRkBbk-y" name="Frame">
-    <mxGraphModel dx="895" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1527" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="87zoMCgWx7IZLiXA-lgk-0" />
         <mxCell id="87zoMCgWx7IZLiXA-lgk-1" parent="87zoMCgWx7IZLiXA-lgk-0" />
@@ -554,7 +554,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cuufkTFhKXvPpfbD7Z3N" name="RPC">
-    <mxGraphModel dx="1854" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1854" dy="1191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -853,7 +853,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EXQ3JtJRfhPHQhhRD-rc" name="Stream">
-    <mxGraphModel dx="1298" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="1P036L8csM9Qdpl9nd-F-0" />
         <mxCell id="1P036L8csM9Qdpl9nd-F-1" parent="1P036L8csM9Qdpl9nd-F-0" />
@@ -937,89 +937,6 @@
         </mxCell>
         <mxCell id="MfQn2yXhhnkVlbMzkwjQ-4" value="不包含在frame length内&lt;br&gt;isBodyInFrame = false" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;shadow=0;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="MfQn2yXhhnkVlbMzkwjQ-6" vertex="1">
           <mxGeometry x="750" width="150" height="80" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="jsnHvvOr5sqU0f0DWK4V" name="ChunkFetch">
-    <mxGraphModel dx="1298" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
-      <root>
-        <mxCell id="CFjn6XpaOHFBVFMEeRUY-0" />
-        <mxCell id="CFjn6XpaOHFBVFMEeRUY-1" parent="CFjn6XpaOHFBVFMEeRUY-0" />
-        <mxCell id="g41afeXXm7fq4fGSFbC3-6" value="" style="group" parent="CFjn6XpaOHFBVFMEeRUY-1" vertex="1" connectable="0">
-          <mxGeometry x="80" y="80" width="620" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="g41afeXXm7fq4fGSFbC3-3" value="" style="group" parent="g41afeXXm7fq4fGSFbC3-6" vertex="1" connectable="0">
-          <mxGeometry y="220" width="620" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-2" value="&lt;font&gt;msg size&lt;/font&gt;" style="shape=dimension;whiteSpace=wrap;html=1;align=center;points=[];verticalAlign=bottom;spacingBottom=-5;labelBackgroundColor=#ffffff;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-3" vertex="1">
-          <mxGeometry x="240" y="30" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-3" value="&lt;font&gt;requestId&lt;/font&gt;" style="shape=dimension;whiteSpace=wrap;html=1;align=center;points=[];verticalAlign=bottom;spacingBottom=-5;labelBackgroundColor=#ffffff;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-3" vertex="1">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-4" value="&lt;font&gt;error msg&lt;/font&gt;" style="shape=dimension;whiteSpace=wrap;html=1;align=center;points=[];verticalAlign=bottom;spacingBottom=-5;labelBackgroundColor=#ffffff;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-3" vertex="1">
-          <mxGeometry x="320" y="30" width="300" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-5" value="&lt;font&gt;8&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-3" vertex="1">
-          <mxGeometry x="70" y="40" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-6" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-3" vertex="1">
-          <mxGeometry x="190" y="40" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-7" value="msg size" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-3" vertex="1">
-          <mxGeometry x="440" y="40" width="60" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-8" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot;&gt;ChunkFetchFailure&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=20;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-3" vertex="1">
-          <mxGeometry x="170" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-18" value="&lt;font&gt;chunkIndex&lt;/font&gt;" style="shape=dimension;whiteSpace=wrap;html=1;align=center;points=[];verticalAlign=bottom;spacingBottom=-5;labelBackgroundColor=#ffffff;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-3" vertex="1">
-          <mxGeometry x="160" y="30" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="g41afeXXm7fq4fGSFbC3-2" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Nunito;" parent="g41afeXXm7fq4fGSFbC3-3" vertex="1">
-          <mxGeometry x="270" y="40" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="g41afeXXm7fq4fGSFbC3-4" value="" style="group" parent="g41afeXXm7fq4fGSFbC3-6" vertex="1" connectable="0">
-          <mxGeometry y="110" width="540" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-19" value="&lt;font&gt;streamId&lt;/font&gt;" style="shape=dimension;whiteSpace=wrap;html=1;align=center;points=[];verticalAlign=bottom;spacingBottom=-5;labelBackgroundColor=#ffffff;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-4" vertex="1">
-          <mxGeometry y="30" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-20" value="&lt;font&gt;body&lt;/font&gt;" style="shape=dimension;whiteSpace=wrap;html=1;align=center;points=[];verticalAlign=bottom;spacingBottom=-5;labelBackgroundColor=#ffffff;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-4" vertex="1">
-          <mxGeometry x="240" y="30" width="300" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-21" value="&lt;font&gt;8&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-4" vertex="1">
-          <mxGeometry x="70" y="40" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-22" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-4" vertex="1">
-          <mxGeometry x="190" y="40" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-23" value="body size" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-4" vertex="1">
-          <mxGeometry x="355" y="40" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-24" value="ChunkFetchSuccess" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=20;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-4" vertex="1">
-          <mxGeometry x="165" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="g41afeXXm7fq4fGSFbC3-0" value="&lt;font&gt;chunkIndex&lt;/font&gt;" style="shape=dimension;whiteSpace=wrap;html=1;align=center;points=[];verticalAlign=bottom;spacingBottom=-5;labelBackgroundColor=#ffffff;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-4" vertex="1">
-          <mxGeometry x="160" y="30" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="g41afeXXm7fq4fGSFbC3-5" value="" style="group" parent="g41afeXXm7fq4fGSFbC3-6" vertex="1" connectable="0">
-          <mxGeometry width="480" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-10" value="&lt;font&gt;chunkIndex&lt;/font&gt;" style="shape=dimension;whiteSpace=wrap;html=1;align=center;points=[];verticalAlign=bottom;spacingBottom=-5;labelBackgroundColor=#ffffff;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-5" vertex="1">
-          <mxGeometry x="320" y="30" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-11" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot;&gt;streamId&lt;/font&gt;" style="shape=dimension;whiteSpace=wrap;html=1;align=center;points=[];verticalAlign=bottom;spacingBottom=-5;labelBackgroundColor=#ffffff;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-5" vertex="1">
-          <mxGeometry y="30" width="320" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-13" value="&lt;font&gt;8&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-5" vertex="1">
-          <mxGeometry x="70" y="40" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-14" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-5" vertex="1">
-          <mxGeometry x="390" y="40" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="73Q98SrHmq1DEnhKEfCo-16" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot;&gt;ChunkFetchRequest&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=20;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="g41afeXXm7fq4fGSFbC3-5" vertex="1">
-          <mxGeometry x="140" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
