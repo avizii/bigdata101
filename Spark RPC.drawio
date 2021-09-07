@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T00:45:42.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="YjZsaX40tww-gvI1NQ7g" version="15.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-07T00:50:19.247Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="wF0jw8P_Ak5WSItGjR9F" version="15.0.6" type="github" pages="3">
   <diagram id="uVko9VTxaAUNqRkBbk-y" name="RPC">
     <mxGraphModel dx="1298" dy="5515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -572,14 +572,17 @@
       <root>
         <mxCell id="1Y2_dai7QhnaeFNh0Lfc-0" />
         <mxCell id="1Y2_dai7QhnaeFNh0Lfc-1" parent="1Y2_dai7QhnaeFNh0Lfc-0" />
-        <mxCell id="1Y2_dai7QhnaeFNh0Lfc-5" value="BlockManagerMaster" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" vertex="1" parent="1Y2_dai7QhnaeFNh0Lfc-1">
-          <mxGeometry x="410" y="450" width="290" height="210" as="geometry" />
+        <mxCell id="1Y2_dai7QhnaeFNh0Lfc-8" value="BlockManagerMaster" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;dashed=1;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" vertex="1" parent="1Y2_dai7QhnaeFNh0Lfc-1">
+          <mxGeometry x="330" y="340" width="340" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="1Y2_dai7QhnaeFNh0Lfc-6" value="driverEndpoint&lt;br&gt;driverHeartbeatEndpoint" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;dashed=1;" vertex="1" parent="1Y2_dai7QhnaeFNh0Lfc-5">
-          <mxGeometry y="29" width="290" height="51" as="geometry" />
+        <mxCell id="1Y2_dai7QhnaeFNh0Lfc-9" value="+ driverEndpoint: RpcEndpointRef&#xa;+ driverHeartbeatEndpoint: RpcEndpointRef&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" vertex="1" parent="1Y2_dai7QhnaeFNh0Lfc-8">
+          <mxGeometry y="26" width="340" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="1Y2_dai7QhnaeFNh0Lfc-7" value="removeExecutor: 移除executor(只在driver端调用)&lt;br&gt;registerBlockManager：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" vertex="1" parent="1Y2_dai7QhnaeFNh0Lfc-5">
-          <mxGeometry y="80" width="290" height="130" as="geometry" />
+        <mxCell id="1Y2_dai7QhnaeFNh0Lfc-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" vertex="1" parent="1Y2_dai7QhnaeFNh0Lfc-8">
+          <mxGeometry y="63" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y2_dai7QhnaeFNh0Lfc-11" value="+ removeExecutor(type): type - 移除executor(driver端调用)&#xa;+ registerBlockManager(type): type " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" vertex="1" parent="1Y2_dai7QhnaeFNh0Lfc-8">
+          <mxGeometry y="71" width="340" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
